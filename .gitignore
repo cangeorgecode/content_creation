@@ -180,7 +180,9 @@ output/*.mp4
 output/*.json
 brolls/*.mp4
 swipe_files/
-
+docs/
+docs/*.mp4
+*.mp4
 *.jpg
 *.jpeg
 *.png

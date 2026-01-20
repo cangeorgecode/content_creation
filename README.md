@@ -2,7 +2,11 @@
 
 I made a Reddit post explaining why I did this and how it helped me as a solopreneur who's struggling to stay consistent with content creation → (LINK TO BE ADDED)  
 
-## Demo Video
+## Demo
+
+Here's the tool in action:
+
+![Demo GIF](docs/demo.gif)
 [![Demo Video](https://img.shields.io/badge/Watch_Demo_Here-red?style=for-the-badge)](https://cangeorgecode.github.io/content_creation/demo.mp4)
 
 Or direct link [Youtube](https://youtube.com/shorts/nJI9Lmy-y7k)
