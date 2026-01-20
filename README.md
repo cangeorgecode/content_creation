@@ -2,7 +2,7 @@
 
 I made a Reddit post explaining why I did this and how it helped me as a solopreneur who's struggling to stay consistent with content creation → (LINK TO BE ADDED)  
 
-Demo video: (LINK TO BE ADDED)
+Demo video: [Youtube](https://youtube.com/shorts/nJI9Lmy-y7k)
 
 &nbsp;
 
