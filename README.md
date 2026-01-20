@@ -27,7 +27,7 @@ After installation, you will need to add the following assets. Create the folder
 1. Create a 'brolls' folder. This is where you put your b-rolls
 2. Create a 'media' folder. This will be needed by the program
 3. Create an 'output' folder. This is where the finished clip goes
-4. Create a 'swipe_files' folder. This is where the speech goes (in json format)
+4. Create a 'swipe_files' folder. This is where the speech goes (Please follow the sample speech json format below)
 
 ### Speech 💬
 Sample speech in json format:
