@@ -57,6 +57,17 @@ Pycaps might require chromium to be installed, but you can do this easily by fol
 
 &nbsp;
 
+## How to use it  
+
+Run:
+```
+python factory3.py swipe_files/bear_facts.json
+```
+
+If it runs successfully, your finished video will be inside the 'output' folder
+
+&nbsp;
+
 ## Work with me 👋
 
 You are free to use my tool to create videos. If you'd would like to work with me, here's my offer:
