@@ -5,7 +5,7 @@ I made a Reddit post explaining why I did this and how it helped me as a solopre
 ## Demo
 
 <video width="640" controls>
-  <source src="https://cangeorgecode.github.io/content_creation/demo.mp4" type="video/mp4">
+  <source src="https://github.com/cangeorgecode/content_creation/raw/main/docs/demo.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
