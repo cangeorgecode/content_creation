@@ -61,6 +61,6 @@ You are free to use my tool to create videos. If you'd would like to work with m
 
 1. 30 videos for USD1,000
 2. 1 free video demo
-3. Talk to me first:- 
-- [Calendly - book a time]()
+3. Reach out to me/understand more:- 
+- [Calendly - book a call]()
 - [X]()
