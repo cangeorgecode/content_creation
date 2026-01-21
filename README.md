@@ -1,10 +1,10 @@
 # Post 5x a day on Instagram/Youtube/Tiktok by automating content creation 🚀
 
-I made a Reddit post explaining why I did this and how it helped me as a solopreneur who's struggling to stay consistent with content creation → (LINK TO BE ADDED)  
+I made a Reddit post explaining why I did this and how it helped me as a solopreneur who's struggling to stay consistent with content creation → [Reddit](https://www.reddit.com/r/SideProject/comments/1qilbwr/i_automated_short_form_content_creation_for_45/) 
 
 ## Demo
 
-<video src="https://cangeorgecode.github.io/content_creation/docs/demo.mp4" controls></video>
+[![Demo Video]](https://www.youtube.com/shorts/nJI9Lmy-y7k)
 
 Or direct link [Youtube](https://youtube.com/shorts/nJI9Lmy-y7k)
 
