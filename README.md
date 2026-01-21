@@ -4,7 +4,9 @@ I made a Reddit post explaining why I did this and how it helped me as a solopre
 
 ## Demo
 
-[![Demo Video]](https://www.youtube.com/shorts/nJI9Lmy-y7k)
+<video controls width="640">
+  <source src="https://raw.githubusercontent.com/cangeorgecode/content_creation/main/docs/demo.mp4" type="video/mp4">
+</video>
 
 Or direct link [Youtube](https://youtube.com/shorts/nJI9Lmy-y7k)
 
