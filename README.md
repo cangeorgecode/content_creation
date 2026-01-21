@@ -4,7 +4,10 @@ I made a Reddit post explaining why I did this and how it helped me as a solopre
 
 ## Demo
 
-![Demo Video](https://github.com/cangeorgecode/content_creation/raw/refs/heads/main/docs/demo.mp4)
+<video width="640" controls>
+  <source src="https://github.com/cangeorgecode/content_creation/raw/refs/heads/main/docs/demo.mp4" type="video/mp4">
+  Your browser does not support video playback.
+</video>
 
 Or direct link [Youtube](https://youtube.com/shorts/nJI9Lmy-y7k)
 
