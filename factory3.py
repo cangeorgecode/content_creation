@@ -5,6 +5,7 @@
 import sys
 import subprocess
 import json
+import os
 from pathlib import Path
 
 def run_cmd(cmd):
@@ -99,13 +100,16 @@ def main():
 
     # Build HeyGen command
     heygen_cmd = ["python", "heygen6.py", "--json", str(script_file)]
+    use_mock = False
 
     # Forward --title and --voice args
     extra_args = sys.argv[2:]
     i = 0
     while i < len(extra_args):
         arg = extra_args[i]
-        if arg in ["--title", "--voice"]:
+        if arg == "--mock":
+            use_mock = True
+        elif arg in ["--title", "--voice"]:
             heygen_cmd.append(arg)
             if i + 1 < len(extra_args) and not extra_args[i + 1].startswith("--"):
                 heygen_cmd.append(extra_args[i + 1])
@@ -120,8 +124,16 @@ def main():
 
     # Step 1: HeyGen
     print("\n1. Generating avatar video with HeyGen...")
-    stdout = run_cmd(heygen_cmd)
-    heygen_path = get_output_path(stdout)
+    if use_mock:
+        print(" [MOCK MODE] Skipping HeyGen API. Using media/mock_avatar.mp4")
+        heygen_path = "media/mock_avatar.mp4"
+        if not os.path.exists(heygen_path):
+            print("Mock video not found! Please run 'python create_mock_video.py' first.")
+            sys.exit(1)
+    else:
+        stdout = run_cmd(heygen_cmd)
+        heygen_path = get_output_path(stdout)
+        
     if not heygen_path:
         print("Failed to get HeyGen output path")
         sys.exit(1)

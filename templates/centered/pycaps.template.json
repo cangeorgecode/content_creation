@@ -23,8 +23,12 @@
     "effects": [
         {
             "type": "remove_punctuation_marks",
-            "punctuation_marks": ["."],
-            "exception_marks": ["..."]
+            "punctuation_marks": [
+                "."
+            ],
+            "exception_marks": [
+                "..."
+            ]
         },
         {
             "type": "emoji_in_segment",
@@ -41,11 +45,11 @@
             "type": "zoom_in_primitive",
             "when": "narration-starts",
             "what": "word",
-            "duration": 0.12,
-            "init_scale": 0.8,
+            "duration": 0.1,
+            "init_scale": 0.85,
             "overshoot": {
-                "amount": 0.05,
-                "peak_at": 0.7
+                "amount": 0.1,
+                "peak_at": 0.6
             }
         },
         {

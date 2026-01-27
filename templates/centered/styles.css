@@ -6,7 +6,7 @@
 .word {
     font-family: 'Komika Axis';
     font-size: 24px;
-    color: #DDDDDD;
+    color: rgba(255, 255, 255, 0.6);
     font-weight: 800;
     text-shadow: 
         -2px -2px 0 #000,  
@@ -15,10 +15,18 @@
          2px  2px 0 #000,
          3px  3px 5px rgba(0,0,0,0.5);
     padding: 3px 5px;
+    transition: all 0.1s ease-in-out;
 }
 
 .word-being-narrated {
-    color: #FFFF00;
+    color: #00FFCC;
+    text-shadow: 
+        0 0 10px #00FFCC,
+        -2px -2px 0 #000,  
+         2px -2px 0 #000,
+        -2px  2px 0 #000,
+         2px  2px 0 #000;
+    transform: scale(1.1);
 }
 
 .word-already-narrated {
