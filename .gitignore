@@ -185,5 +185,8 @@ swipe_files/
 *.jpeg
 *.png
 logs/
+.pipeline_state.json
+swipe_files/_temp_*.json
+platform_cache/
 
 # End of https://www.toptal.com/developers/gitignore/api/python
